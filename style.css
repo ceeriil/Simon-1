@@ -7,8 +7,8 @@
   --primary-color: #fff;
   --text-color: #000;
   --primary-overlay: linear-gradient(
-      rgba(255, 255, 255, 0.9),
-      rgba(255, 255, 255, 0.9)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
     url(https://images.unsplash.com/photo-1557683316-973673baf926?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=715&q=80);
 }
@@ -85,6 +85,7 @@ body {
   background-position: center;
   color: var(--text-color);
   padding-top: 5%;
+  backdrop-filter: blur(1rem);
 }
 
 .social-icons {
